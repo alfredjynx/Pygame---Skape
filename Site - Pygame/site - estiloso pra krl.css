@@ -1,0 +1,272 @@
+h1,h2,h3,p,li{
+    font-family: 'Roboto Mono', monospace;
+    color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;
+    font-style: bold;
+    text-decoration: line-through;
+    font-size: 3rem;
+    /* padding:10px; */
+
+}
+
+h1{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+h2{
+    font-size: 1rem;
+
+}
+
+.Escape{
+    margin-right: 42%;
+    margin-top: 100px;
+}
+
+.imagens-titulo{
+    margin-right: 45%;
+    margin-top: 100px;
+}
+
+.Logs{
+    margin-right: 13.5%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+p{
+    margin-left:30px;
+    margin-right: 30px;
+    padding:10px;
+    width: 75%;
+}
+
+body{
+    background-color: black;
+    /* link da imagem: https://www.pinterest.com/pin/a-vertical-view--655344183254337071/ */
+    background-image: url("pan.jpg");
+    background-size: cover;
+
+}
+
+.vid-tit{
+    margin-top: 100px;
+}
+
+.vídeo{
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.Imagens{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inimaginável{
+    width: 35%;
+    height: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: beige;
+
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.disclaimer{
+    font-size: 0.5rem;
+    color: gray;
+}
+
+.barra-superior{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0 ;
+    left: 0; 
+    background-color: beige; 
+    width:100%;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+a{
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color:beige;
+}
+
+.button,.titulo{
+    color: black;
+}
+
+.container{
+    position:relative;
+}
+
+.não{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.membro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.coluna1,.coluna2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.Grupo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-grp{
+    width:40%;
+    height: auto;
+    
+}
+
+.img-grp1{
+    width:70%;
+    height: 40%;
+    
+}
+
+.buttons-download{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.windows_logo{
+    
+    width: 8rem;
+    height: auto;
+
+}
+
+.apple_logo{
+
+    width: 6rem;
+    height: auto;
+
+}
+
+.windows,.apple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.apple_a,.windows_a{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* .apple{
+    width: 70%;
+    height: auto;
+
+} */
+
+.Membro1,.Membro2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-grp1{
+    width: 27rem;
+    height: auto;
+    margin-right: 6rem;
+}
+
+.img-grp2{
+    width: 20rem;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 7rem;
+}
+
+.crap{
+    font-weight: bold;
+}
+
+li{
+    margin-left: 3rem;
+}
+
+.avalia{
+    background-color: beige;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.avaliatext,.avaliatit{
+    color: black;
+    font-weight: bold;
+}
+
+.avaliatit{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.img_ava{
+    width: 60%;
+    height: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.ava_imagem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img_comp{
+    display: flex;
+
+}
